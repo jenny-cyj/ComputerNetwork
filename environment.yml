@@ -1,0 +1,10 @@
+name: dns-lab
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - dnslib>=0.9.24
+      - joblib>=1.3
+      - scikit-learn>=1.3

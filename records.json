@@ -1,0 +1,42 @@
+{
+  "example.local": {
+    "A": [
+      {
+        "value": "192.168.10.10",
+        "ttl": 300
+      }
+    ],
+    "AAAA": [
+      {
+        "value": "2001:db8::10",
+        "ttl": 300
+      }
+    ]
+  },
+
+  "alias.local": {
+    "CNAME": [
+      {
+        "value": "example.local",
+        "ttl": 300
+      }
+    ]
+  },
+
+  "lb.local": {
+    "A": [
+      {
+        "value": "10.0.0.1",
+        "ttl": 300
+      },
+      {
+        "value": "10.0.0.2",
+        "ttl": 300
+      },
+      {
+        "value": "10.0.0.3",
+        "ttl": 300
+      }
+    ]
+  }
+}
