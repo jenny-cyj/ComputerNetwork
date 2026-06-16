@@ -33,6 +33,7 @@ python dns_client.py @127.0.0.1 -p 8053 example.com A
 ```powershell
 python dns_server.py --host 127.0.0.1 --port 8053 --config records.json --dga-model models/dga_model.joblib --dga-action sinkhole
 ```
+*注：`models`文件夹过大无法上传，可通过如下方式下载：链接: https://pan.sjtu.edu.cn/web/share/5230dfab24a3a8be42a3e5078e4929bc, 提取码: g0a2*
 
 若要启用 DNSSEC 验证：
 
